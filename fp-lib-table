@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Caravel)(type KiCad)(uri ${KIPRJMOD}/Caravel.pretty)(options "")(descr ""))
-)

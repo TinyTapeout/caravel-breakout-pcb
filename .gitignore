@@ -29,6 +29,6 @@ fp-info-cache
 _ref/
 
 # Library refs, as it is impossible to deal with these in a
-# universally sensible manner in a repo like this...
+# universally sensible manner...
 fp-lib-table
 sym-lib-table

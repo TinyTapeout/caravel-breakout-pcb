@@ -8,6 +8,7 @@
   (title_block
     (title "Caravel WLCSP breakout")
     (date "2023-06-20")
+    (rev "A2")
   )
 
   (layers

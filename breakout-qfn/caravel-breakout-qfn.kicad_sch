@@ -2554,7 +2554,7 @@
     (pin "1" (uuid 1856c0f4-c1da-47ab-97b0-b60d660eb01e))
     (pin "2" (uuid 8abd76c7-a16d-457d-aa49-db42d13707e9))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C3") (unit 1)
         )
@@ -2579,7 +2579,7 @@
     )
     (pin "1" (uuid 820240b9-f731-4a62-a2f0-ac72021a6886))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR013") (unit 1)
         )
@@ -2604,7 +2604,7 @@
     )
     (pin "1" (uuid 6617613f-da39-4d0e-8092-9a140925c9d4))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR023") (unit 1)
         )
@@ -2629,7 +2629,7 @@
     )
     (pin "1" (uuid ed57b401-e41f-446d-b970-c353a1f3564d))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR021") (unit 1)
         )
@@ -2654,7 +2654,7 @@
     )
     (pin "1" (uuid 7381cb41-ec58-4e47-aaf1-7bef4052254a))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR022") (unit 1)
         )
@@ -2679,7 +2679,7 @@
     )
     (pin "1" (uuid eba3e8d9-bd56-4bee-a3e9-5a2efeba96f2))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR012") (unit 1)
         )
@@ -2704,7 +2704,7 @@
     )
     (pin "1" (uuid 58627e01-0787-4a7a-8f79-53c9f2ff9df5))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR014") (unit 1)
         )
@@ -2729,7 +2729,7 @@
     )
     (pin "1" (uuid b5bf4515-a9e4-4aff-be14-3cd6b5496e01))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR011") (unit 1)
         )
@@ -2754,7 +2754,7 @@
     )
     (pin "1" (uuid 3d8d6085-9cf1-42c5-b07b-fdb5d6c4ebba))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR07") (unit 1)
         )
@@ -2780,7 +2780,7 @@
     (pin "1" (uuid 668dedb2-d2de-474d-999f-9028869ad3a2))
     (pin "2" (uuid 26ea6b3e-e652-487a-a53a-c3d1445c03c5))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C6") (unit 1)
         )
@@ -2806,7 +2806,7 @@
     (pin "1" (uuid 2407d375-fe94-4e24-9eca-3e1851485b0e))
     (pin "2" (uuid 1bc7a302-1588-4de8-8955-f7f67cdb2b69))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C4") (unit 1)
         )
@@ -2831,7 +2831,7 @@
     )
     (pin "1" (uuid 4af06e43-01f9-4b74-a81a-4b5c2d5d87ee))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR027") (unit 1)
         )
@@ -2856,7 +2856,7 @@
     )
     (pin "1" (uuid 9c06554c-39ae-4704-8a17-54242214438f))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR026") (unit 1)
         )
@@ -2881,7 +2881,7 @@
     )
     (pin "1" (uuid f12ba0f2-7c99-4239-b1d6-ed8b8c9b6f07))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR05") (unit 1)
         )
@@ -2907,7 +2907,7 @@
     (pin "1" (uuid ce594b62-89f7-4bbd-8a96-9b251302b8b5))
     (pin "2" (uuid 7fe6a218-e99e-47e4-bd8f-2b7060034b4c))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C2") (unit 1)
         )
@@ -2932,7 +2932,7 @@
     )
     (pin "1" (uuid 76ab4b39-3fbd-4012-83bc-3435ca03ccf3))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR017") (unit 1)
         )
@@ -2958,7 +2958,7 @@
     (pin "1" (uuid 0b4ebfb2-8f9f-49eb-abba-a5f5f620dfc4))
     (pin "2" (uuid 1e566822-882e-4280-a70e-fd78c6b91598))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C7") (unit 1)
         )
@@ -2984,7 +2984,7 @@
     (pin "1" (uuid e80bdf51-4e8c-4788-b705-2d8d92cbf45a))
     (pin "2" (uuid b5d1434a-fe5b-4210-9d4c-35167e70f28f))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C5") (unit 1)
         )
@@ -3009,7 +3009,7 @@
     )
     (pin "1" (uuid f221f856-a453-4eb7-b23c-91d69e40c6de))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR016") (unit 1)
         )
@@ -3035,7 +3035,7 @@
     (pin "1" (uuid 81f4412b-c113-4774-9250-fdfebe6bea03))
     (pin "2" (uuid 6e9ca3d0-91c9-4231-b791-a96f0ee2df54))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C1") (unit 1)
         )
@@ -3060,7 +3060,7 @@
     )
     (pin "1" (uuid 609bc379-9450-4ea0-9643-83aeda1f8dfe))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR09") (unit 1)
         )
@@ -3086,7 +3086,7 @@
     (pin "1" (uuid 76b4d2ff-8114-4500-991e-757816e82c4e))
     (pin "2" (uuid 79a5a69a-f358-47a6-bdd5-6d6f08b64ff3))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C10") (unit 1)
         )
@@ -3112,7 +3112,7 @@
     (pin "1" (uuid 2b529f2d-45e4-4844-8b1f-faffaf06eb1a))
     (pin "2" (uuid bc30c547-4cf6-469a-b278-fb2f6eb1b81c))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C11") (unit 1)
         )
@@ -3201,7 +3201,7 @@
     (pin "8" (uuid 78714d1c-46fd-4691-95a8-50f04b2561fc))
     (pin "9" (uuid 0c8fe868-6ed1-4511-a794-cb0b8fe4c2c4))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "U1") (unit 1)
         )
@@ -3265,7 +3265,7 @@
     (pin "8" (uuid c52dd9d0-4579-43c1-9601-51f1143ba5ef))
     (pin "9" (uuid 846d4019-6847-41b3-88c7-07417cd8c28e))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "CON1") (unit 1)
         )
@@ -3291,7 +3291,7 @@
     (pin "1" (uuid b8d4170f-bae7-4d8b-8e9c-0254651752c7))
     (pin "2" (uuid 97ee3f45-0f63-463a-bb5c-d82a0eb72d11))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C9") (unit 1)
         )
@@ -3320,7 +3320,7 @@
     (pin "4" (uuid 1fb5f3ef-f85a-46f1-9463-0d5b609fad2a))
     (pin "5" (uuid af149154-3e88-432b-988c-6be4b1ffae66))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "U2") (unit 1)
         )
@@ -3345,7 +3345,7 @@
     )
     (pin "1" (uuid 4b236945-3dbe-4dbf-8dbd-6ec8b2fcca75))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR04") (unit 1)
         )
@@ -3370,7 +3370,7 @@
     )
     (pin "1" (uuid 58eb29ff-fa6f-46cd-986e-f37559ff722a))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR0104") (unit 1)
         )
@@ -3395,7 +3395,7 @@
     )
     (pin "1" (uuid 2fd33ef8-3b95-41cc-a946-9ad0acd1935d))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR0105") (unit 1)
         )
@@ -3420,7 +3420,7 @@
     )
     (pin "1" (uuid 4f9b105e-bc5a-43d3-90ff-fcac4017bae6))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR0102") (unit 1)
         )
@@ -3445,7 +3445,7 @@
     )
     (pin "1" (uuid 147531fa-ca2d-4157-9bf9-a55f305ce87e))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR0101") (unit 1)
         )
@@ -3471,7 +3471,7 @@
     (pin "1" (uuid 58ecaf2a-4a50-4499-a73e-d9120d331ded))
     (pin "2" (uuid 7d629e16-08bc-4eae-a251-21ed05beddf4))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "C8") (unit 1)
         )
@@ -3496,7 +3496,7 @@
     )
     (pin "1" (uuid 57c3393b-fae9-49d0-9a83-9b58af18a278))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR0103") (unit 1)
         )
@@ -3521,7 +3521,7 @@
     )
     (pin "1" (uuid 4ddf4d15-6202-4779-b8de-fe51daf917b4))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR01") (unit 1)
         )
@@ -3585,7 +3585,7 @@
     (pin "8" (uuid c4ab6de7-9268-4da1-9668-3149680991c8))
     (pin "9" (uuid 30582192-2040-48f3-980c-e4aa3d60e0f1))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "CON2") (unit 1)
         )
@@ -3610,7 +3610,7 @@
     )
     (pin "1" (uuid 247eceb1-1da3-4e9e-af3b-822d909ef3ac))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR03") (unit 1)
         )
@@ -3639,7 +3639,7 @@
     (pin "4" (uuid ccc90699-ebb1-49b8-9dcc-db81f5f52ddc))
     (pin "5" (uuid 535f0ae4-e66b-43b2-a40a-b6232e62e934))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "CON3") (unit 1)
         )
@@ -3664,7 +3664,7 @@
     )
     (pin "1" (uuid 30d97413-fba8-4107-9e45-019e7f539619))
     (instances
-      (project "caravel-breakout-qfn-RevA1"
+      (project "caravel-breakout-qfn"
         (path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
           (reference "#PWR02") (unit 1)
         )

@@ -6,8 +6,8 @@
 
   (title_block
     (title "Caravel QFN Breakout")
-    (date "2023-07-17")
-    (rev "2.0")
+    (date "2023-07-21")
+    (rev "2.1")
   )
 
   (lib_symbols
@@ -3173,7 +3173,7 @@
     (property "Value" "REF-182665-01" (at 223.52 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ok-connectors:REF-182665-01" (at 222.25 52.07 0)
+    (property "Footprint" "BreakoutCommon:REF-182665-01" (at 222.25 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 52.07 0)
@@ -3412,7 +3412,7 @@
     (property "Value" "REF-182665-01" (at 223.52 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ok-connectors:REF-182665-01" (at 222.25 125.73 0)
+    (property "Footprint" "BreakoutCommon:REF-182665-01" (at 222.25 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 125.73 0)

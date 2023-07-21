@@ -520,7 +520,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "caravel-breakout-qfn.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

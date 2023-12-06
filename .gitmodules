@@ -1,3 +1,6 @@
 [submodule "breakout-qfn/tinytapeout-kicad-libs"]
 	path = breakout-qfn/tinytapeout-kicad-libs
 	url = https://github.com/psychogenic/tinytapeout-kicad-libs.git
+[submodule "ASIC-simulator/breakout-fpga-ICE40UP5K-TT3/tinytapeout-kicad-libs"]
+	path = ASIC-simulator/breakout-fpga-ICE40UP5K-TT3/tinytapeout-kicad-libs
+	url = https://github.com/psychogenic/tinytapeout-kicad-libs.git

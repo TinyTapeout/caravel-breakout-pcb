@@ -124,7 +124,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
@@ -476,6 +476,40 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "highspeed",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 125, 14)",
+        "track_width": 0.18,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "io",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.18,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "p2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -500,6 +534,23 @@
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.18,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -509,12 +560,52 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "p25",
-        "pattern": "v*"
+        "netclass": "power",
+        "pattern": "+?V?"
       },
       {
         "netclass": "p25",
         "pattern": "GND"
+      },
+      {
+        "netclass": "io",
+        "pattern": "mprj_ioxxx"
+      },
+      {
+        "netclass": "highspeed",
+        "pattern": "xclk"
+      },
+      {
+        "netclass": "power",
+        "pattern": "vdd*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "vcc*"
+      },
+      {
+        "netclass": "highspeed",
+        "pattern": "*SCK"
+      },
+      {
+        "netclass": "highspeed",
+        "pattern": "*SI"
+      },
+      {
+        "netclass": "highspeed",
+        "pattern": "*SO"
+      },
+      {
+        "netclass": "highspeed",
+        "pattern": "*SDO"
+      },
+      {
+        "netclass": "highspeed",
+        "pattern": "*SDI"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/VCC*"
       }
     ]
   },

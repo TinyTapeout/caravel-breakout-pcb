@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Caravel QFN Breakout")
-		(date "2023-11-22")
-		(rev "3.0")
+		(date "2024-03-22")
+		(rev "3.2")
 		(company "Psychogenic Technologies")
 		(comment 1 "(C) 2023 Pat Deegan")
 	)
@@ -1385,6 +1385,85 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -3574,16 +3653,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 93.98) (xy 231.14 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "624d797f-57a7-4e70-a9a4-0e8e091b5fed")
-	)
-	(wire
-		(pts
 			(xy 30.48 109.22) (xy 25.4 109.22)
 		)
 		(stroke
@@ -3911,6 +3980,16 @@
 			(type default)
 		)
 		(uuid "8c59953d-bad8-4035-a1f8-1935dae6ab19")
+	)
+	(wire
+		(pts
+			(xy 231.14 93.98) (xy 236.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e46fa8d-3a50-4b0d-9202-deaf1a0185c1")
 	)
 	(wire
 		(pts
@@ -4876,6 +4955,16 @@
 		)
 		(uuid "7a9f242b-d65e-49b6-87cc-1cece3ec9c1c")
 	)
+	(text "CON1, CON2: Place on bottom"
+		(exclude_from_sim no)
+		(at 224.536 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9cede42e-09d6-4bbe-9040-c718293d260c")
+	)
 	(text "Project CLK"
 		(exclude_from_sim no)
 		(at 248.92 95.25 0)
@@ -4887,7 +4976,7 @@
 		)
 		(uuid "ab61175f-b79b-434a-b93f-4410a1cd8de9")
 	)
-	(text "Though the PCB itself has retained the same form-factor, \nelements included have been re-aranged since prior versions \nof the breakout board (a breaking change) to allow for \nobjectives above and to provide more room for the eventual \nFPGA test system.  \nThe pin headers have been placed a sane/easy-to-remember \nand replicate distance apart on the PCB: 36 millimeters, \ncenter-to-center horizontally and at the same height."
+	(text "Though the PCB itself has retained the same form-factor, \nelements included have been re-aranged since prior versions \nof the breakout board (a breaking change) to allow for \nobjectives above and to provide more room for the eventual \nFPGA test system.  \nThe pin headers have been placed a sane/easy-to-remember \nand replicate distance apart on the PCB: 36 millimeters, \ncenter-to-center horizontally and at the same height.\nAs of v3.2, we've moved to standard top-entry 100 mil headers,\nmeaning they must be assembled on the underside of the PCB.\nAny standard pin socket should do, but guide post holes are \nto support the inexpensive Liansheng FH-00148"
 		(exclude_from_sim no)
 		(at 195.58 55.88 0)
 		(effects
@@ -9562,7 +9651,7 @@
 				)
 			)
 		)
-		(property "Value" "REF-182665-01"
+		(property "Value" "~"
 			(at 224.79 111.76 0)
 			(effects
 				(font
@@ -9570,7 +9659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BreakoutCommon:FH-00339"
+		(property "Footprint" "TinyTapeout:FH-00148_PinSocket_2x20_P2.54mm"
 			(at 223.52 83.82 0)
 			(effects
 				(font
@@ -9597,7 +9686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH-00339"
+		(property "MPN" "NPTC202KFMS-RC"
 			(at 223.52 83.82 0)
 			(effects
 				(font
@@ -9606,7 +9695,43 @@
 				(hide yes)
 			)
 		)
-		(property "MPN_ALT" "REF-182665-01 (or Harwin M20-7812045)"
+		(property "MPN_ALT" "FH-00148"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" "2x20 100 mil Receptacle SMT"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "S5690-ND"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C2685092"
 			(at 223.52 83.82 0)
 			(effects
 				(font
@@ -10660,6 +10785,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 30.48 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "916dab92-41a5-47f0-bcf6-8db9c78cbb71")
+		(property "Reference" "FID2"
+			(at 32.639 191.8278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 32.639 194.2521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 30.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "caravel-breakout-qfn"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 135.89 104.14 90)
 		(unit 1)
@@ -10849,6 +11083,115 @@
 			(project "caravel-breakout-qfn"
 				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 43.18 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b4d48b23-783b-4370-b9b6-594c5ebaa8f9")
+		(property "Reference" "FID3"
+			(at 45.339 191.8278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 45.339 194.2521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 43.18 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "caravel-breakout-qfn"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -11115,6 +11458,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 17.78 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ceaf6f4d-c265-4a1d-98b6-7902401c2477")
+		(property "Reference" "FID1"
+			(at 19.939 191.8278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 19.939 194.2521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "caravel-breakout-qfn"
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 236.22 147.32 90)
 		(unit 1)
@@ -11326,7 +11778,7 @@
 				)
 			)
 		)
-		(property "Value" "REF-182665-01"
+		(property "Value" "~"
 			(at 224.79 170.18 0)
 			(effects
 				(font
@@ -11334,7 +11786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BreakoutCommon:FH-00339"
+		(property "Footprint" "TinyTapeout:FH-00148_PinSocket_2x20_P2.54mm"
 			(at 223.52 142.24 0)
 			(effects
 				(font
@@ -11361,7 +11813,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FH-00339"
+		(property "MPN" "NPTC202KFMS-RC"
 			(at 223.52 142.24 0)
 			(effects
 				(font
@@ -11370,7 +11822,43 @@
 				(hide yes)
 			)
 		)
-		(property "MPN_ALT" "REF-182665-01 (or Harwin M20-7812045)"
+		(property "MPN_ALT" "FH-00148"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "S5690-ND"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C2685092"
 			(at 223.52 142.24 0)
 			(effects
 				(font

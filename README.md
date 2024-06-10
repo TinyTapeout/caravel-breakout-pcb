@@ -1,4 +1,8 @@
-# caravel-breakout
+# caravel-breakout-pcb - deprecated
+
+> [!WARNING]
+> This repo is deprecated. Use [TinyTapeout/breakout-pcb](https://github.com/tinytapeout/breakout-pcb) instead.
+
 A set of breakouts/carrier boards for the Caravel ASIC used in eFabless MPW runs and a little FPGA adapter for simulating the TinyTapeout design, to be used alongside the [Tiny Tapeout 4+ Demo Board](https://github.com/TinyTapeout/tt-demo-pcb), the [Tiny Tapeout 1-3 Demo Board](https://github.com/TinyTapeout/tt123-demo-pcb), and/or other custom designs.
 
 The ASIC board designs are based on the original breakout [published here](https://github.com/efabless/caravel_board/tree/main/hardware/breakout), optimised for single-sided surface mount assembly and ease of integration into other projects.
